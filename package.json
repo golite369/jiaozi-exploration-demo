@@ -1,0 +1,39 @@
+{
+  "name": "jiaozi-webgl-exploration",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "latest",
+    "gsap": "latest",
+    "howler": "latest",
+    "lil-gui": "latest",
+    "postprocessing": "latest",
+    "stats.js": "latest",
+    "three": "latest",
+    "three-mesh-bvh": "latest"
+  },
+  "devDependencies": {
+    "@types/howler": "latest",
+    "@types/node": "latest",
+    "@types/three": "latest",
+    "eslint": "latest",
+    "prettier": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-plugin-glsl": "latest",
+    "vitest": "latest"
+  }
+}

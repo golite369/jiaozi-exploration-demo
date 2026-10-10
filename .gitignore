@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+coverage/
+*.local
+*.log
+*.tsbuildinfo
+.env
+.env.*
+work/
